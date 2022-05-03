@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <title>Custom Video</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1 class="title">BMW M5</h1>
+        </header>
+        <main class="main">
+            <div class="video-player">
+                <video class="video viewer" poster="./assets/bmw.png" src="./assets/video.mp4"></video>
+    
+                <div class="video-controls">
+                    
+                    <button class="player__button" title="Play">►</button>
+
+                    <div class="video-progress">
+                        <div class="progress__filled"></div>
+                    </div>
+
+                    <div class="time">
+                        <span class="current">0:00 </span><span class="devider">/</span><span class="duration"> 0:00</span>
+                    </div>
+
+                    <button class="mute control-button" aria-label="mute">
+                        <div class="slash"></div>
+                        <i class="fas fa-volume-up"></i>
+                    </button>
+
+                    <input class="voice__slider" type="range" name="volume" min="0" max="1" step="0.05" value="0.4">
+                    <button class="fullscreen control-button" aria-label="fullscreen">
+                        <i class="fas fa-compress"></i>
+                    </button>
+                </div>
+
+                <div class="video-progress-default">
+                    <div class="progress__filled-default"></div>
+                </div>
+
+                <button class="play-pause">
+                    <i class="far fa-play-circle"></i>
+                </button>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer__left">
+                    <span>©</span>
+                    <span>2022</span>
+                    <a href="https://github.com/DevFariz" class="github__link">github</a>
+                </div>
+                <div class="footer__right">
+                    <a href="https://rs.school/js-stage0/" class="footer__right-link">Rolling Scopes School</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./all.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
