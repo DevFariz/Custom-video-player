@@ -1,2 +1,2 @@
-# devfariz-JSFEPRESCHOOL
-Private repository for @devfariz
+# Custom-Video-player
+Deploy: https://devfariz.github.io/Custom-video-player/
